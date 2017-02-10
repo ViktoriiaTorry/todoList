@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="../../favicon.ico">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>exam</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    </head>
+  <body>
+<div class="container">
+    <div class="row">
+    <div class="todos">todos</div>
+      <div class="col-md-12 wrapped">
+        <div class="center-panel">
+            <div class="panel panel-primary">
+                <div class="panel-heading"></div>
+                <div class="panel-body">
+               <div class="panel-body-borders">
+                    <ul id="incomplete-tasks" class="list-group">
+                   		<form  method="POST">
+                        <li class="list-group-item adding-panel">
+                        <div class="chevron"><img src="imgs/double-chevron.png" width="20" height="20"></div>
+                        <input type="text" id="add-task" placeholder="What needs to be done?"/>
+                        <label for="add-task"></label>
+       					        <div class="success"></div>
+                         <div class="empty"></div>
+                         <button id="add">Add</button>  
+                         </li></form>
+<li class="list-group-item newTask incomplete-task">
+<div class="checkbox">
+<label>
+<input type="checkbox" id="checkbox"/>
+<span class="glyphicon glyphicon-ok"></span></label>
+<label class="checkboxLabel">SSS</label>
+<input type="text" class="inp" value="SSS">
+</div>
+<div class="pull-right action-buttons col-md-4">
+<div class="editButtons">
+<button class="save"></button>
+<button class="cancel"></button>
+<span class="glyphicon glyphicon-remove"></span>
+<span id="pencil" class="glyphicon glyphicon-pencil"></span>
+</div>
+</div></li>
+
+<li class="list-group-item newTask incomplete-task">
+<div class="checkbox">
+<label>
+<input type="checkbox" id="checkbox"/>
+<span class="glyphicon glyphicon-ok"></span></label>
+<label class="checkboxLabel">44</label>
+<input type="text" class="inp" value="SSS">
+</div>
+<div class="pull-right action-buttons col-md-4">
+<div class="editButtons">
+<button class="save"></button>
+<button class="cancel"></button>
+<span class="glyphicon glyphicon-remove"></span>
+<span id="pencil" class="glyphicon glyphicon-pencil"></span>
+</div>
+</div></li>
+
+<li class="list-group-item newTask incomplete-task">
+<div class="checkbox">
+<label>
+<input type="checkbox" id="checkbox"/>
+<span class="glyphicon glyphicon-ok"></span></label>
+<label class="checkboxLabel">77</label>
+<input type="text" class="inp" value="SSS">
+</div>
+<div class="pull-right action-buttons col-md-4">
+<div class="editButtons">
+<button class="save"></button>
+<button class="cancel"></button>
+<span class="glyphicon glyphicon-remove"></span>
+<span id="pencil" class="glyphicon glyphicon-pencil"></span>
+</div>
+</div></li>
+
+<li class="list-group-item newTask incomplete-task">
+<div class="checkbox">
+<label>
+<input type="checkbox" id="checkbox"/>
+<span class="glyphicon glyphicon-ok"></span></label>
+<label class="checkboxLabel">33</label>
+<input type="text" class="inp" value="SSS">
+</div>
+<div class="pull-right action-buttons col-md-4">
+<div class="editButtons">
+<button class="save"></button>
+<button class="cancel"></button>
+<span class="glyphicon glyphicon-remove"></span>
+<span id="pencil" class="glyphicon glyphicon-pencil"></span>
+</div>
+</div></li>
+</div>
+<div class="col-md-12 lower-panel-first">
+</div>
+
+<div class="col-md-12 lower-panel">
+<div class="col-md-12 lower-panel-inner">
+<button id="itemsLeft"> <span id="counterIncomplete"></span>  items left</button>
+<div class="col-md-7 center-buttons">
+<button id="all">ALL</button>
+<button id="active">Active</button>
+<button id="completed">Completed</button>
+<button id="removeAllChecked">Clear completed (<span id="counter"></span>)</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+         <div class="col-md-3 lower-text">Double-click to edit a todo</div>
+    </div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/script.js"></script>
+    <script src="libs/jquery-3.1.1.js"></script>
+  </body>
+</html>

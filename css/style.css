@@ -1,0 +1,122 @@
+div.panel-heading{background: linear-gradient( to top, #695e59, #9a8881);border: transparent;
+height: 8px;}
+div.panel-primary{border: transparent;}
+.trash { color:rgb(209, 91, 71);}
+.panel-body { padding:0px; }
+.panel .glyphicon,.list-group-item .glyphicon { margin-right:0px;}
+.checkbox { display:inline-block;margin:0px;}
+.glyphicon-ok,label { display:inline-block;margin:0px; padding: 0px; padding-left:0px; }
+.panel-body input[type=checkbox]:checked + label {color: #85ada7;}
+.radio label, .checkbox label{padding-left:0px;}
+.panel-body input[type=checkbox]:checked + .glyphicon-ok {color: #85aa9e; }
+.panel-body input[type=checkbox]:checked + .inp {text-decoration: line-through; }
+.panel-body input[type=text]{border: none;}
+.glyphicon-ok{ color: #d9d9d9; padding: 0px; margin: 0 0 0 0px;}
+.checkboxLabel{margin-left: 0px;}
+.panel-body input[type=checkbox] {display:none;}
+.list-group-item:hover, a.list-group-item:focus {background-color: rgb(245, 245, 245);}
+.list-group { margin-bottom:0px;  background-color: #f6f6f6;}
+.labelText{	margin: 0 0px 0 30px;}
+#add{display: none;}
+input[type=checkbox]{ margin: 0 0 0 25px;}
+/* Edit Task */
+ul li input[type=text].inputTask { display:none;}
+ul li.editMode input[type=text] {display:block;}
+ul li.editMode label {display:none;}
+input.inputTask{display: none;}
+.list-group-item{border-bottom-style: dashed;  background-color: #f6f6f6;}
+.newTask{border-top-style: dashed; border-bottom-style: dashed;}
+.incompleted-task{text-decoration:none; color: #000;}
+.completed-task{color: #a9a9a9;  text-decoration: line-through;} 
+button#removeAllChecked {
+	  float: right;
+  	margin: 10px 15px 10px 0;
+    background: #d4d4d4;
+    border: none;
+    color: #7f7c7f;
+    border-radius: 2px;
+    font-size: 10px;
+    padding: 5px 5px 2px 5px;
+  }
+    button#itemsLeft {
+    font-size: 13px;
+    cursor: default;
+    float: left;
+   	margin: 10px 15px 10px 0;
+    background: transparent;
+    border: none;
+    color: #7f7c7f;
+    border-radius: 2px;
+  }
+  #all,#active,#completed{
+  	font-size: 12px;
+    cursor: default;
+	  margin: 0px;
+   	margin: 10px 0px 10px 0px;
+    background: transparent;
+    border: none;
+    color: #93756f;
+    border-radius: 2px;
+  }
+  .center-buttons{
+  	margin: 0px 0px 0 0px;	padding: 0px 0px 0 0px; float: right;  }
+  .lower-panel{
+  	background-color: #eaeaea;	border: none; margin: 0px 10px 0 10px;
+  } 
+  .lower-panel-inner{background-color: #ededed; box-shadow: 0 2px 4px #d4d4d4;  }
+  body{  background-color: #eaeaea;  }
+  .panel-primary{ 	box-shadow: 0 2px 4px #d4d4d4; }
+  .lower-panel-first{ 	height: 7px;	background-color: #ededed;	box-shadow: 0 2px 4px #d4d4d4; }
+  .empty{ float: right; color: red;}
+  .success{color: green;float: right;}
+  .row{ display: block; margin-left: auto; margin-right: auto;  }
+  .cancel,.save{
+    float: right;
+	  font-size: 12px;
+    cursor: default;
+	  margin: 0px;
+   	margin: 10px 0px 10px 0px;
+    background: transparent;
+    border: none;
+    color: #2a9837;
+    border-radius: 2px;
+    display: inline-block;
+  }
+  .cancel{color: #f33942;}
+  .glyphicon-pencil{margin: 0 20px 0 0px; float: right; }
+  .glyphicon-remove{ margin: 0 0px 0 20px; color: #a88a8a;float: right;}
+  ul li input[type=text] {
+  display:none;
+}
+	#add-task{display: block; margin: 10px 0 0 40px }
+	.text-decor{text-decoration: line-through;}
+	.checkboxLabel{	margin: 0 0 0 30px;}	
+  .wrapped{	margin: 100px 0 30px ;}
+	.row{	margin: 10px 50px;}
+	.todos,.lower-text{
+	text-align: center;
+	position: absolute;
+	margin: 0 0 0 400px;
+	font-weight: bold;
+	background-color: #a9a9a9;
+	font-size: 70px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 1px;
+	}
+	.center-panel{
+	margin: 0px 0px;
+	}
+	.lower-text{margin: 0px 390px; font-size: 12px;background-color: #787373;}
+  .chevron{float: left; margin: 10px 0 0 0}
+  #counterIncomplete{
+	font-weight: bold;
+}
+.adding-panel{
+height: 60px;
+}
+.panel-body-borders{
+padding: 0; weight: 30px;
+}
