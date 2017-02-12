@@ -1,5 +1,4 @@
-div.panel-heading{background: linear-gradient( to top, #695e59, #9a8881);border: transparent;
-height: 8px;}
+div.panel-heading{background: linear-gradient( to top, #695e59, #9a8881);border: transparent; height: 8px;}
 div.panel-primary{border: transparent;}
 .trash { color:rgb(209, 91, 71);}
 .panel-body { padding:0px; }
@@ -59,10 +58,8 @@ button#removeAllChecked {
     border-radius: 2px;
   }
   .center-buttons{
-  	margin: 0px 0px 0 0px;	padding: 0px 0px 0 0px; float: right;  }
-  .lower-panel{
-  	background-color: #eaeaea;	border: none; margin: 0px 10px 0 10px;
-  } 
+  	margin: 0px 0px 0 0px;	padding: 0px 0px 0 0px; float: right; }
+  .lower-panel{	background-color: #eaeaea;	border: none; margin: 0px 0px 0 0px; } 
   .lower-panel-inner{background-color: #ededed; box-shadow: 0 2px 4px #d4d4d4;  }
   body{  background-color: #eaeaea;  }
   .panel-primary{ 	box-shadow: 0 2px 4px #d4d4d4; }
@@ -74,8 +71,7 @@ button#removeAllChecked {
     float: right;
 	  font-size: 12px;
     cursor: default;
-	  margin: 0px;
-   	margin: 10px 0px 10px 0px;
+	 	margin: 10px 0px 10px 0px;
     background: transparent;
     border: none;
     color: #2a9837;
@@ -85,11 +81,9 @@ button#removeAllChecked {
   .cancel{color: #f33942;}
   .glyphicon-pencil{margin: 0 20px 0 0px; float: right; }
   .glyphicon-remove{ margin: 0 0px 0 20px; color: #a88a8a;float: right;}
-  ul li input[type=text] {
-  display:none;
-}
+  ul li input[type=text] {  display:none;}
 	#add-task{display: block; margin: 10px 0 0 40px }
-	.text-decor{text-decoration: line-through;}
+/*	.text-decor{text-decoration: line-through;}*/
 	.checkboxLabel{	margin: 0 0 0 30px;}	
   .wrapped{	margin: 100px 0 30px ;}
 	.row{	margin: 10px 50px;}
@@ -106,17 +100,10 @@ button#removeAllChecked {
   color: transparent;
   text-shadow: rgba(255,255,255,0.5) 0px 1px 1px;
 	}
-	.center-panel{
-	margin: 0px 0px;
-	}
-	.lower-text{margin: 0px 390px; font-size: 12px;background-color: #787373;}
-  .chevron{float: left; margin: 10px 0 0 0}
-  #counterIncomplete{
-	font-weight: bold;
-}
-.adding-panel{
-height: 60px;
-}
-.panel-body-borders{
-padding: 0; weight: 30px;
-}
+.center-panel{	margin: 0px 0px;	}
+.lower-text{margin: 0px 390px; font-size: 12px;background-color: #787373;}
+.chevron{float: left; margin: 10px 0 0 0}
+#counterIncomplete{	font-weight: bold;}
+.adding-panel{height: 60px;}
+.panel-body-borders{padding: 0; weight: 30px;}
+.newBlocks { display: none; }
